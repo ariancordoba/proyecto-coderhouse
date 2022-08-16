@@ -1,0 +1,111 @@
+.container {
+    margin: 4rem auto;
+    padding: 0;
+    max-width: 1280px;
+}
+
+.article__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+
+.article__img img {
+    max-width: 100%;
+    /* height: 200px; */
+    border-radius: 15px 15px 0 0;
+}
+
+.article__card {
+    background: #fff;
+    border-radius: 15px;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.article__card:hover {
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.3);
+    /* transform: scale(1.1) */
+}
+
+.article__content {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.article__content .card__category {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #6b82a7;
+    display: block;
+    text-decoration: none;
+}
+
+.article__content .card__title {
+    margin: 10px 0 10px;
+    color: #414141;
+    font-family: 'Montserrat';
+}
+
+.article__content .card__text {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    line-height: 1.5rem;
+    color: #6b82a7;
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        margin: 4rem;
+    }
+    
+    .article__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 4rem;
+    }
+    
+    .article__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        margin: 4rem;
+    }
+    
+    .article__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+/* @media screen and (min-width: 768px) {
+    .container {
+        max-width: 1100px;
+    }
+
+    .article__card {
+        display: grid;
+        grid-template-rows: 220px 1fr;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+} */
