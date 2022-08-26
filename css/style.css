@@ -15,56 +15,38 @@ html {
     background-color: #0c0c0c;
 }
 
-.hero__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: #0c0c0c;
-}
-
-li, a, button {
-    font-family: "Montserrat";
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
 .logo {
     width: 150px;
     cursor: pointer;
 }
 
-.nav{
-    list-style: none;
+.navbar {
+    padding: 15px 45px;
 }
 
-.nav li {
-    display: inline-block;
-    padding: 0px 20px;
+.nav-item {
+    margin: 0px 10px;
 }
 
-.nav li a {
-    transition: all 0.3s ease;
+#navbarNav {
+    display: flex;
+    justify-content: center;
 }
 
-.nav li a:hover {
-    color: #6B80EE;
-}
-
-button{
+.btn_whatsapp{
     padding: 9px 25px;
     background-color: #25d366;
     border: none;
     cursor: pointer;
-    border-radius: 50px;
-    transition: all 0.3s ease 0s
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    color: white;
 }
 
-button:hover {
-    background-color: #25d366 ;
-    opacity: 0.8;
+.btn_whatsapp:hover {
+    background-color: #10913f ;
+    opacity: 0.9;
+    color: white;
 }
 
 .title {
@@ -78,6 +60,7 @@ button:hover {
 
 .hero__main {
     display: flex;
+
 }
 
 .hero__main > div {
@@ -118,6 +101,7 @@ button:hover {
 
 .hero__img img {
     max-width: 100%;
+    margin-top: 40px;
 }
 
 /*** GRID ***/
@@ -294,7 +278,7 @@ button:hover {
   .container__footer {
     width: 100%;
     padding: 40px 0;
-    background: #0c0c0c;
+    background: #212529;
     margin-top: 40px;
   }
 
@@ -317,9 +301,10 @@ button:hover {
     margin-top: 20px;
   }
 
-  /* .container__footer footer .redes__footer a {
+ .container__footer footer .redes__footer a {
     text-decoration: none;
-  } */
+ }
+
 
   .container__footer footer .redes__footer .icon__redes {
     font-size: 20px;
@@ -400,6 +385,29 @@ button:hover {
     height: 500px;
     margin-top: 35px;
   }
+
+  /*** MEDIA QUERIES ***/
+
+
+  /* @media screen and (max-width: 1000px) {
+    .navbar {
+        padding: 0px 45px;
+    }
+    
+    .nav-item {
+        margin: 0px 10px;
+    }
+    
+    #navbarNav {
+        display: flex;
+        justify-content: start;
+    }
+
+    .btn_whatsapp {
+        margin-bottom: 20px;
+    }
+  } */
+
 
 @media screen and (max-width: 768px) {
     li, a, button {
