@@ -28,11 +28,6 @@ html {
     margin: 0px 10px;
 }
 
-#navbarNav {
-    display: flex;
-    justify-content: center;
-}
-
 .btn_whatsapp{
     padding: 9px 25px;
     background-color: #25d366;
@@ -42,6 +37,12 @@ html {
     transition: all 0.3s ease 0s;
     color: white;
 }
+
+ .nav__center {
+    display: inline;
+    justify-content: space-between;
+    max-width: 63%;
+} 
 
 .btn_whatsapp:hover {
     background-color: #10913f ;
@@ -390,24 +391,30 @@ html {
   /*** MEDIA QUERIES ***/
 
 
-  /* @media screen and (max-width: 1000px) {
-    .navbar {
-        padding: 0px 45px;
-    }
-    
-    .nav-item {
-        margin: 0px 10px;
-    }
-    
-    #navbarNav {
-        display: flex;
-        justify-content: start;
-    }
+ @media screen and (max-width: 1280px) {
 
-    .btn_whatsapp {
-        margin-bottom: 20px;
+    .nav__center {
+        display: inline;
+        justify-content: space-between;
+        max-width: 70%;
     }
-  } */
+  }
+
+  @media screen and (max-width: 990px) {
+
+    .nav__center {
+        display: inline;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+
+    .hero__text {
+        margin-top: 25px;
+    }
+  }
 
 
 @media screen and (max-width: 768px) {
@@ -455,8 +462,9 @@ html {
     }
 
     .hero__img img {
-        padding: 80px 0 0;
-        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 40px 0 0;
     }
 
     .grid__item h5 {
@@ -476,6 +484,25 @@ html {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 520px) {
+
+    .hero__text {
+        margin-top: 30px;
+    }
+
+    .hero__text h4 {
+        font-size: 1.3rem;
+    }
+
+    .hero__text h2 {
+        font-size: 3rem;
+    }
+
+    .hero__text h3 {
+        font-size: 1rem;
+    }
+  }
 
 @media screen and (max-width: 480px) {
 
@@ -517,6 +544,66 @@ html {
 
     .hero__img img {
         padding: 40px 0 0;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .grid {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "item1 item1"
+        "item2 item2"
+        "item3 item3";
+    }
+
+    .grid__item {
+        margin: 0.5rem;
+    }
+
+    .events {
+        padding: 2rem;
+        padding-top: 0;
+    }
+
+    .inner__left  h3 {
+        font-size: 2.5rem;
+        color: #000000;
+        letter-spacing: 2px;
+        margin: 10px 0 10px 0px;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .hero__text {
+        margin-top: 30px;
+    }
+
+    .hero__text h4 {
+        font-size: 0.9rem;
+    }
+
+    .hero__text h2 {
+        font-size: 2rem;
+    }
+
+    .hero__text h3 {
+        font-size: 0.9rem;
+    }
+
+    .hero__img img {
+        padding: 0px;
         max-width: 100%;
     }
 
