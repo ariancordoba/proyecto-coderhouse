@@ -29,6 +29,10 @@ html {
     padding: 15px 45px;
 }
 
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
 .nav-item {
     margin: 0px 10px;
 }
@@ -55,6 +59,8 @@ html {
     color: white;
 }
 
+/*** HERO MAIN ***/
+
 .title {
     display: flex;
     color: #0c0c0c;
@@ -66,7 +72,6 @@ html {
 
 .hero__main {
     display: flex;
-
 }
 
 .hero__main > div {

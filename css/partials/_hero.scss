@@ -1,0 +1,49 @@
+.hero {
+    height: 100vh;
+    background-color: #0c0c0c;
+
+    .hero__main {
+        display: flex;
+
+        > div {
+            flex: 1;
+        }
+
+        .hero__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 3rem;
+            color: #fff;
+
+            h2 {
+                font-family: 'Montserrat', cursive;
+                font-size: 6rem;
+                line-height: 1;
+                margin-top: 10px;
+            }
+
+            h3 {
+                font-family: 'Montserrat', cursive;
+                font-size: 1.5rem;
+                margin-top: 10px;
+                font-weight: 400;
+            }
+
+            h4 {
+                font-family: 'Bebas Neue', cursive;
+                font-weight: 300;
+                font-size: 1.5rem;
+                border: 2px dashed;
+                width: max-content;
+                padding: 0.6rem;
+                padding-bottom: 0.4rem;
+            }
+        }
+        
+        .hero__img img {
+            max-width: 100%;
+            margin-top: 40px;
+        }
+    }
+}

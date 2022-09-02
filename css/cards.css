@@ -11,6 +11,12 @@
     font-family: 'Montserrat';
 }
 
+.btn {
+    box-shadow: none !important;
+    display: block;
+    margin: 10px 0px;
+}
+
 @media screen and (max-width: 990px) {
     
     .container {
@@ -28,6 +34,3 @@
         gap: 3rem;
     }
 }
-
-
-

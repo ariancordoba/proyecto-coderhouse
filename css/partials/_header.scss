@@ -1,12 +1,40 @@
 .navbar {
     padding: 15px 45px;
 
+    .navbar-toggler {
+        box-shadow: none !important;
+    }
+
     .logo {
         width: 150px;
         cursor: pointer;
     }
 
-    .nav-item {
-        margin: 0px 10px;
-    }
+    .nav__center {
+        display: inline;
+        justify-content: space-between;
+        max-width: 63%;
+
+        .nav-item {
+            margin: 0px 10px;
+        }
+
+        .btn_whatsapp{
+            padding: 9px 25px;
+            background-color: #25d366;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all 0.3s ease 0s;
+            color: white;
+
+            &:hover {
+                background-color: #10913f ;
+                opacity: 0.9;
+                color: white;
+            }
+        }
+
+
+    } 
 }
