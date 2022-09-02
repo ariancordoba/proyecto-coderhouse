@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+*::selection {
+    background-color: #0c0c0c;
+    color: #fff;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -205,74 +210,10 @@ html {
     max-width: 100%;
 }
 
-/*** CARDS ***/
-
-.container {
-    padding-left: 6rem;
-    padding-right: 6rem;
-}
-
-.cards {
-    display: grid;
-    grid-gap: 40px 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 40px 0;
-}
-
-.cards .card {
-    background: #FEFEFE;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 20px rgba(66, 66, 66, 0.3);
-    display: flex;
-    align-items: flex-end;
-    position: relative;
-    min-height: 340px;
-    margin-top: 80px;
-    transition: .3s ease all;
-}
-
-.cards .card img {
-    border-radius: 15px;
-    position: absolute;
-    top: -50px;
-    width: calc(100% - 40px);
-    max-height: 300px;
-    object-fit: cover;
-}
-
-.cards .card .buttons {
+.carousel-item img {
     width: 100%;
-    margin-top: 20px;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .cards .card .buttons .button {
-    padding: 1rem;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    border-radius: 5px;
-    transition: .3s ease all;
-  }
-
-  .cards .card .buttons .button.primary {
-    background: #3E60E9;
-  }
-  
-  .cards .card .buttons .button.primary:hover {
-    background: #254BE6;
-  }
-  
-  .cards .card .buttons .button.secondary {
-    background: #C8C8C8;
-  }
-  
-  .cards .card .buttons .button.secondary:hover {
-    background: #8d8d8d;
-  }
+    height: 700px;
+}
 
   /*** ESTILOS FOOTER ***/
   

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*::-moz-selection {
+  background-color: "#0c0c0c";
+  color: #fff;
+}
+*::selection {
+  background-color: "#0c0c0c";
+  color: #fff;
+}
+
+.navbar {
+  padding: 15px 45px;
+}
+.navbar .logo {
+  width: 150px;
+  cursor: pointer;
+}
+.navbar .nav-item {
+  margin: 0px 10px;
+}/*# sourceMappingURL=estilos.css.map */
