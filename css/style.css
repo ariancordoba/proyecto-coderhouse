@@ -215,11 +215,6 @@ html {
     max-width: 100%;
 }
 
-.carousel-item img {
-    width: 100%;
-    height: 700px;
-}
-
   /*** ESTILOS FOOTER ***/
   
   .container__footer {
@@ -227,11 +222,6 @@ html {
     padding: 40px 0;
     background: #212529;
     margin-top: 40px;
-  }
-
-  .container__footer footer {
-    max-width: 1200px;
-    margin: auto;
   }
 
   .container__footer .logo__footer {
@@ -242,19 +232,19 @@ html {
     width: 250px;
   }
 
-  .container__footer footer .redes__footer {
+  .container__footer .redes__footer {
     display: flex;
     justify-content: center;
     margin-top: 20px;
   }
 
 
- .container__footer footer .redes__footer a {
+ .container__footer .redes__footer a {
     text-decoration: none;
  }
 
 
-  .container__footer footer .redes__footer .icon__redes {
+  .container__footer .redes__footer .icon__redes {
     font-size: 20px;
     background: #efefef;
     margin: 20px;
@@ -268,31 +258,31 @@ html {
     transition: 0.3s;
   }
   
-  .container__footer footer .redes__footer .fa-facebook-f:hover {
+  .container__footer .redes__footer .fa-facebook-f:hover {
     background: #3b5998;
     color: #fff;
     transition: 0.5s;
   }
   
-  .container__footer footer .redes__footer .fa-instagram:hover {
+  .container__footer .redes__footer .fa-instagram:hover {
     background: #c13584;
     color: #fff;
     transition: 0.5s;
   }
   
-  .container__footer footer .redes__footer .fa-handshake:hover {
+  .container__footer .redes__footer .fa-handshake:hover {
     background: #ecb731;
     color: #fff;
     transition: 0.5s;
   }
   
-  .container__footer footer .redes__footer .fa-youtube:hover {
+  .container__footer .redes__footer .fa-youtube:hover {
     background: #ff0000;
     color: #fff;
     transition: 0.5s;
   }
   
-  .container__footer footer hr {
+  .container__footer hr {
     margin-top: 20px;
     border: none;
     height: 2px;
@@ -337,7 +327,7 @@ html {
   /*** MEDIA QUERIES ***/
 
 
- @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1280px) {
 
     .nav__center {
         display: inline;
@@ -347,6 +337,12 @@ html {
   }
 
   @media screen and (max-width: 990px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
 
     .nav__center {
         display: inline;
@@ -364,6 +360,13 @@ html {
 
 
 @media screen and (max-width: 768px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
     li, a, button {
         font-size: 12px;
     }
@@ -589,3 +592,4 @@ html {
         flex-direction: column;
     }
 }
+

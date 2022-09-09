@@ -2,3 +2,17 @@
 
 $fontMontserrat: 'Montserrat';
 $mainColor: '#0c0c0c';
+
+%iconos {
+    font-size: 20px;
+    background: #efefef;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+    transition: 0.3s;
+}

@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-top: 50px;
+
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: 'Montserrat';
+    }
+    
+    .btn {
+        box-shadow: none !important;
+        display: block;
+        margin: 10px 0px;
+    }
+}
+

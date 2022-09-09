@@ -1,0 +1,266 @@
+@media screen and (max-width: 1280px) {
+
+    .nav__center {
+        display: inline;
+        justify-content: space-between;
+        max-width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 990px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .nav__center {
+        display: inline;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+
+    .hero__text {
+        margin-top: 25px;
+    }
+  }
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    li, a, button {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .nav li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    button{
+        padding: 9px 25px;
+        background-color: #25d366;
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        transition: all 0.3s ease 0s
+    }
+
+    .hero__main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero__text {
+        margin-top: 20px;
+    }
+
+    .hero__text h4 {
+        font-size: 1.5rem;
+    }
+
+    .hero__text h2 {
+        font-size: 4rem;
+    }
+
+    .hero__text h3 {
+        font-size: 1rem;
+    }
+
+    .hero__img img {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0 0;
+    }
+
+    .grid__item h5 {
+        font-size: 1.3rem;
+    }
+    
+    .grid__item h4 {
+        font-size: 1rem;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .hero__text {
+        margin-top: 30px;
+    }
+
+    .hero__text h4 {
+        font-size: 1.3rem;
+    }
+
+    .hero__text h2 {
+        font-size: 3rem;
+    }
+
+    .hero__text h3 {
+        font-size: 1rem;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+
+    .hero__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10%;
+        background-color: #0c0c0c;
+    }
+
+    .nav{
+        list-style: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    li, a, button {
+        font-size: 11px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .hero__text {
+        margin-top: 20px;
+    }
+
+    .hero__text h4 {
+        font-size: 1rem;
+    }
+
+    .hero__text h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero__img img {
+        padding: 40px 0 0;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .grid {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "item1 item1"
+        "item2 item2"
+        "item3 item3";
+    }
+
+    .grid__item {
+        margin: 0.5rem;
+    }
+
+    .events {
+        padding: 2rem;
+        padding-top: 0;
+    }
+
+    .inner__left  h3 {
+        font-size: 2.5rem;
+        color: #000000;
+        letter-spacing: 2px;
+        margin: 10px 0 10px 0px;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .hero__text {
+        margin-top: 30px;
+    }
+
+    .hero__text h4 {
+        font-size: 0.9rem;
+    }
+
+    .hero__text h2 {
+        font-size: 2rem;
+    }
+
+    .hero__text h3 {
+        font-size: 0.9rem;
+    }
+
+    .hero__img img {
+        padding: 0px;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .grid {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "item1 item1"
+        "item2 item2"
+        "item3 item3";
+    }
+
+    .grid__item {
+        margin: 0.5rem;
+    }
+
+    .events {
+        padding: 2rem;
+        padding-top: 0;
+    }
+
+    .inner__left  h3 {
+        font-size: 2.5rem;
+        color: #000000;
+        letter-spacing: 2px;
+        margin: 10px 0 10px 0px;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
