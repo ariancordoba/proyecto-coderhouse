@@ -1,9 +1,11 @@
 @media screen and (max-width: 1280px) {
 
-    .nav__center {
-        display: inline;
-        justify-content: space-between;
-        max-width: 70%;
+    .navbar {
+        .nav__center {
+            display: inline;
+            justify-content: space-between;
+            max-width: 70%;
+        }
     }
   }
 
