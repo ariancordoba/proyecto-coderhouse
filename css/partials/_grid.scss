@@ -28,20 +28,20 @@
 
     .grid__item1 {
         grid-area: item1;
-        background-image: url("/img/classic.jpg");
+        background-image: url("../img/classic.jpg");
         background-repeat: no-repeat;
         height: 500px;
     }
     
     .grid__item2 {
         grid-area: item2;
-        background-image: url("/img/black.jpg");
+        background-image: url("../img/black.jpg");
         background-repeat: no-repeat;
     }
     
     .grid__item3 {
         grid-area: item3;
-        background-image: url("/img/gray.jpg");
+        background-image: url("../img/gray.jpg");
         background-repeat: no-repeat;
     }
 }

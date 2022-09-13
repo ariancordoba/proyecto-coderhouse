@@ -1,26 +1,25 @@
 .hero {
     height: 100vh;
-    background-color: #0c0c0c;
+    background-image: url(../img/slider1.png);
+    background-repeat: no-repeat;
 
     .hero__main {
         display: flex;
+        justify-content: center;
+        text-align: center;
 
-        > div {
-            flex: 1;
-        }
 
         .hero__text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-left: 3rem;
             color: #fff;
+            margin-top: 20%;
+
 
             h2 {
                 font-family: 'Montserrat', cursive;
                 font-size: 6rem;
                 line-height: 1;
-                margin-top: 10px;
+                margin-top: 5px;
+                letter-spacing: 5px;
             }
 
             h3 {
@@ -28,22 +27,17 @@
                 font-size: 1.5rem;
                 margin-top: 10px;
                 font-weight: 400;
+                letter-spacing: 2px;
             }
 
             h4 {
+                text-align: center;
                 font-family: 'Bebas Neue', cursive;
                 font-weight: 300;
                 font-size: 1.5rem;
-                border: 2px dashed;
-                width: max-content;
-                padding: 0.6rem;
-                padding-bottom: 0.4rem;
+                margin: 0px;
+                letter-spacing: 3px;
             }
-        }
-        
-        .hero__img img {
-            max-width: 100%;
-            margin-top: 40px;
         }
     }
 }
