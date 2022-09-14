@@ -14,15 +14,6 @@
 
   @media screen and (max-width: 920px) {
 
-    .hero {
-        .hero__main {
-            .hero__text {
-                margin-top: 25%;
-            }
-        }
-    }
-
-    
     li, a, button {
         font-size: 18px;
     }
@@ -46,11 +37,6 @@
         .hero__main {
             display: flex;
             flex-direction: column;
-                    
-            .hero__text {
-                margin-top: 45%;
-                padding: 15px;
-            }
 
             .hero__text h4 {
                 font-size: 1rem;
@@ -100,11 +86,6 @@
         .hero__main {
             display: flex;
             flex-direction: column;
-                    
-            .hero__text {
-                margin-top: 65%;
-                padding: 15px;
-            }
 
             .hero__text h4 {
                 font-size: 1rem;
@@ -145,7 +126,6 @@
             flex-direction: column;
                     
             .hero__text {
-                margin-top: 75%;
                 padding: 15px;
             }
 
@@ -207,11 +187,6 @@
 
     .hero__text h3 {
         font-size: 0.9rem;
-    }
-
-    .hero__img img {
-        padding: 0px;
-        max-width: 100%;
     }
 
     .title {

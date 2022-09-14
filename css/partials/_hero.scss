@@ -4,14 +4,13 @@
     background-repeat: no-repeat;
 
     .hero__main {
+        height: 100%;
         display: flex;
-        justify-content: center;
-        text-align: center;
 
 
         .hero__text {
             color: #fff;
-            margin-top: 20%;
+            align-self: center;
 
 
             h2 {
@@ -40,4 +39,13 @@
             }
         }
     }
+}
+
+@mixin centrar ($center) {
+    justify-content: $center;
+    text-align: $center;
+}
+
+.hero .hero__main {
+    @include centrar (center);
 }
