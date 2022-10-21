@@ -18,14 +18,6 @@
   margin: 0;
   padding: 0;
 }
-*::-moz-selection {
-  background-color: "#0c0c0c";
-  color: #fff;
-}
-*::selection {
-  background-color: "#0c0c0c";
-  color: #fff;
-}
 
 header {
   position: fixed;
